@@ -7,9 +7,7 @@
 import cv2
 import numpy as np
 import pytesseract
-from google.colab.patches import cv2_imshow  # Use this to display images in Colab
 import streamlit as st
-from PIL import Image
 
 # Ensure Tesseract is properly set up
 pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'  # Update if necessary
